@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gelateria Dolcemania — Aperta fino a mezzanotte a Bovisa, Milano</title>
+<meta name="description" content="Gelateria a Bovisa, Milano, aperta tutti i giorni fino alle 23:50: gelato, granite e ghiaccioli artigianali, torte gelato e bubble tea. Via Baldinucci, angolo Via Verità.">
+<link rel="canonical" href="https://rotenzark.github.io/gelateria-dolcemania/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Gelateria Dolcemania — Aperta fino a mezzanotte a Bovisa">
+<meta property="og:description" content="Quando le altre hanno chiuso: gelato, granite e ghiaccioli, tutti i giorni fino alle 23:50. Bovisa, Milano.">
+<meta property="og:url" content="https://rotenzark.github.io/gelateria-dolcemania/">
+<meta property="og:image" content="https://rotenzark.github.io/gelateria-dolcemania/img/og.jpg">
+<meta property="og:locale" content="it_IT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Gelateria Dolcemania — Aperta fino a mezzanotte a Bovisa">
+<meta name="twitter:description" content="Gelato, granite e ghiaccioli, tutti i giorni fino alle 23:50. Bovisa, Milano.">
+<meta name="twitter:image" content="https://rotenzark.github.io/gelateria-dolcemania/img/og.jpg">
+<meta name="theme-color" content="#17213A">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700;800&family=Rethink+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=1">
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+<script src="js/main.js?v=1" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "IceCreamShop",
+  "name": "Gelateria Dolcemania",
+  "description": "Gelateria a Bovisa, Milano, aperta tutti i giorni fino a mezzanotte: gelato, granite e ghiaccioli artigianali, torte gelato e bubble tea.",
+  "url": "https://rotenzark.github.io/gelateria-dolcemania/",
+  "telephone": "+393899678686",
+  "image": "https://rotenzark.github.io/gelateria-dolcemania/img/facciata.jpg",
+  "priceRange": "€",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Via Don Giovanni Verità 1",
+    "addressLocality": "Milano",
+    "postalCode": "20158",
+    "addressCountry": "IT"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 45.5026991, "longitude": 9.1664393 },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "10:00", "closes": "23:50" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Fino a che ora siete aperti?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Fino alle 23:50, tutti i giorni. Apriamo alle 10 del mattino e chiudiamo quasi a mezzanotte, domenica compresa." }
+    },
+    {
+      "@type": "Question",
+      "name": "Fate anche granite e ghiaccioli?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sì: granite e ghiaccioli artigianali, come c'è scritto sul cartello fuori. D'estate sono il modo più veloce per rinfrescarsi." }
+    },
+    {
+      "@type": "Question",
+      "name": "C'è qualcosa senza latte?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sì: fra i gusti gira il cioccolato fondente con popcorn senza latte, ed è uno dei più richiesti. I ghiaccioli alla frutta sono un'altra opzione." }
+    },
+    {
+      "@type": "Question",
+      "name": "Fate torte gelato?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sì, ci sono le torte gelato nella vetrina — pistacchio e non solo — e i pasticcini freddi. Per una torta grande conviene una telefonata." }
+    },
+    {
+      "@type": "Question",
+      "name": "Dove siete?",
+      "acceptedAnswer": { "@type": "Answer", "text": "All'angolo tra Via Don Giovanni Verità e Via Filippo Baldinucci, in Bovisa, a Milano." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+
+<div id="intro" aria-hidden="true">
+  <span id="introOra">23:50</span>
+</div>
+
+<a class="skip" href="#hero" data-i18n="skip">Vai al contenuto</a>
+
+<header id="header">
+  <a class="brand" href="#hero" aria-label="Gelateria Dolcemania, torna in cima" data-i18n-aria="brand.aria">Dolcemania</a>
+  <button id="burger" aria-expanded="false" aria-controls="mainNav" aria-label="Apri il menu" data-i18n-aria="burger.aria">
+    <span></span><span></span><span></span>
+  </button>
+  <nav id="mainNav" aria-label="Principale">
+    <a href="#tardi" data-i18n="nav.tardi">Fino a tardi</a>
+    <a href="#gusti" data-i18n="nav.gusti">I gusti</a>
+    <a href="#fresco" data-i18n="nav.fresco">Granite e ghiaccioli</a>
+    <a href="#dove" data-i18n="nav.dove">Dove</a>
+    <button id="langToggle" type="button" aria-label="Switch to English" data-i18n-aria="lang.aria"><span data-i18n="lang.txt">EN</span></button>
+    <a class="cta" href="tel:+393899678686" data-i18n="nav.cta">Chiama</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ══════════ HERO — notturno ══════════ -->
+<section id="hero">
+  <span class="palline" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+  <p class="hero-kicker" data-i18n="hero.kicker">Gelateria · Bovisa, Milano</p>
+  <h1 data-i18n="hero.h">Quando le altre<br>hanno chiuso.</h1>
+  <p class="hero-sub" data-i18n="hero.sub">La voglia di gelato arriva sempre a un'ora scomoda. Noi siamo <strong>aperti tutti i giorni fino alle 23:50</strong> — domenica compresa.</p>
+  <div class="hero-meta">
+    <p class="hero-ore"><strong>10:00 – 23:50</strong> <span data-i18n="hero.ore">tutti i giorni</span></p>
+    <a class="hero-call" href="tel:+393899678686">389 967 8686</a>
+  </div>
+</section>
+
+<figure class="banda">
+  <img src="img/facciata.jpg" alt="La facciata d'angolo di Dolcemania su Via Baldinucci: insegna arancione, tenda bordeaux e il cono gigante" width="1300" height="536">
+  <figcaption data-i18n="hero.cap">All'angolo di Via Baldinucci, con l'insegna accesa.</figcaption>
+</figure>
+
+<!-- ══════════ FINO A TARDI ══════════ -->
+<section id="tardi">
+  <div class="due-col">
+    <div class="col-testo reveal">
+      <p class="eyebrow" data-i18n="ta.eyebrow">Fino a tardi</p>
+      <h2 data-i18n="ta.h">Aperti dieci ore<br>oltre l'ora di pranzo.</h2>
+      <p data-i18n="ta.p1">Le gelaterie chiudono presto. Noi no. Dalle <strong>dieci del mattino</strong> fino a <strong>mezzanotte meno dieci</strong>, ogni giorno della settimana, festivi inclusi.</p>
+      <p data-i18n="ta.p2">Vuol dire che ci siamo dopo cena, dopo il cinema, dopo la lezione serale al Politecnico qui a due passi. Quando la voglia arriva, la porta è ancora aperta.</p>
+      <p class="ta-cit" data-i18n="ta.cit">«10 e lode alla ragazza al bancone: super gentile, e si è pure interessata alle nostre opinioni.»</p>
+      <p class="ta-cit-fonte" data-i18n="ta.cit.f">whyagata, recensione Google</p>
+    </div>
+    <figure class="col-fig reveal">
+      <button class="shot" data-full="img/coppetta.jpg" aria-label="Ingrandisci: la coppetta" data-i18n-aria="ta.a1">
+        <img src="img/coppetta.jpg" alt="Una coppetta di gelato menta e stracciatella con la cialda a nido d'ape, davanti al banco" width="1000" height="1000">
+      </button>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════ I GUSTI ══════════ -->
+<section id="gusti">
+  <div class="sec-head reveal">
+    <p class="eyebrow" data-i18n="gu.eyebrow">I gusti</p>
+    <h2 data-i18n="gu.h">Un banco intero,<br>a quell'ora.</h2>
+    <p class="sec-intro" data-i18n="gu.intro">Fior di latte, pistacchio, nocciola, fondente, stracciatella, amarena, cassata, cocco, caffè, biscotto, nutella, yogurt. E fra i più richiesti, un fondente <strong>con popcorn e senza latte</strong>, per chi il latte non lo può o non lo vuole.</p>
+  </div>
+  <ul class="gusti-grid reveal">
+    <li>Pistacchio</li>
+    <li>Fior di latte</li>
+    <li>Fondente</li>
+    <li>Stracciatella</li>
+    <li>Nocciola</li>
+    <li>Amarena</li>
+    <li>Cassata</li>
+    <li>Cocco</li>
+    <li>Caffè</li>
+    <li>Biscotto</li>
+    <li>Nutella</li>
+    <li class="gusto-nolatte" data-i18n="gu.nolatte">Fondente e popcorn · senza latte</li>
+  </ul>
+  <figure class="banda-larga reveal">
+    <button class="shot" data-full="img/banco.jpg" aria-label="Ingrandisci: il banco" data-i18n-aria="gu.a1">
+        <img src="img/banco.jpg" alt="Il banco del gelato con le targhette dei gusti e le vaschette in fila" width="1300" height="1002">
+      </button>
+  </figure>
+  <p class="gusti-nota reveal" data-i18n="gu.nota">I gusti girano con la stagione: questo è quello che c'era il giorno della foto.</p>
+</section>
+
+<!-- ══════════ GRANITE E GHIACCIOLI ══════════ -->
+<section id="fresco">
+  <div class="due-col due-col-alt">
+    <figure class="col-fig reveal">
+      <button class="shot" data-full="img/manifesto.jpg" aria-label="Ingrandisci: il cartello" data-i18n-aria="fr.a1">
+        <img src="img/manifesto.jpg" alt="Il cartello di Dolcemania: «Venite a rinfrescarvi con le nostre granite e i nostri ghiaccioli artigianali»" width="1000" height="1000">
+      </button>
+    </figure>
+    <div class="col-testo reveal">
+      <p class="eyebrow" data-i18n="fr.eyebrow">Granite e ghiaccioli</p>
+      <h2 data-i18n="fr.h">Venite a<br>rinfrescarvi.</h2>
+      <p data-i18n="fr.p1">Non l'abbiamo scritto noi: è sul cartello appeso fuori. <strong>Le nostre granite e i nostri ghiaccioli artigianali</strong> — il modo più veloce per tirare il fiato quando fa caldo e la giornata non finisce mai.</p>
+      <p data-i18n="fr.p2">E se avete voglia di qualcosa di diverso, c'è anche il <strong>bubble tea</strong>. La vetrina delle <strong>torte gelato</strong> — pistacchio e non solo — è lì per le occasioni.</p>
+      <a class="cta cta-big" href="tel:+393899678686" data-i18n="fr.cta">Chiama Dolcemania</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ RECENSIONI ══════════ -->
+<section id="voci">
+  <div class="sec-head reveal">
+    <p class="eyebrow" data-i18n="voci.eyebrow">Recensioni Google</p>
+    <h2 data-i18n="voci.h">Cosa dicono.</h2>
+  </div>
+  <div class="voci-grid">
+    <blockquote class="reveal"><p data-i18n="v1.p">«10 e lode alla ragazza al bancone, super gentile, carina e disponibile, si è pure interessata alle nostre opinioni. I gusti erano zuppa inglese, nutellone e pistacchio salato.»</p><cite data-i18n="v1.c">whyagata</cite></blockquote>
+    <blockquote class="reveal"><p data-i18n="v2.p">«The ice cream selection here is nothing short of amazing. I tried the Pistacchio and was blown away by its creamy texture.»</p><cite data-i18n="v2.c">Madusanka Herath</cite></blockquote>
+    <blockquote class="reveal"><p data-i18n="v3.p">«Gelati molto buoni, ragazze molto simpatiche. A parte il gelato buonissimo, panna montata da favola.»</p><cite data-i18n="v3.c">Da una recensione Google</cite></blockquote>
+  </div>
+</section>
+
+<!-- ══════════ DOVE ══════════ -->
+<section id="dove">
+  <div class="dove-grid">
+    <div class="dove-info reveal">
+      <p class="eyebrow" data-i18n="dove.eyebrow">Dove siamo</p>
+      <h2 data-i18n="dove.h">All'angolo,<br>in Bovisa.</h2>
+      <address>
+        <strong>Via Don Giovanni Verità 1</strong><br>
+        <span data-i18n="dove.ang">angolo Via Filippo Baldinucci</span><br>
+        20158 Milano
+      </address>
+      <p class="dove-tel"><a href="tel:+393899678686">389 967 8686</a></p>
+      <p class="dove-stato"><span id="orarioStato">&nbsp;</span></p>
+      <ul class="orari">
+        <li data-day="1"><span data-i18n="d.lun">lunedì</span><b>10–23:50</b></li>
+        <li data-day="2"><span data-i18n="d.mar">martedì</span><b>10–23:50</b></li>
+        <li data-day="3"><span data-i18n="d.mer">mercoledì</span><b>10–23:50</b></li>
+        <li data-day="4"><span data-i18n="d.gio">giovedì</span><b>10–23:50</b></li>
+        <li data-day="5"><span data-i18n="d.ven">venerdì</span><b>10–23:50</b></li>
+        <li data-day="6"><span data-i18n="d.sab">sabato</span><b>10–23:50</b></li>
+        <li data-day="0"><span data-i18n="d.dom">domenica</span><b>10–23:50</b></li>
+      </ul>
+      <p class="dove-serv" data-i18n="dove.serv">Sul posto · asporto · consegna a domicilio</p>
+    </div>
+    <div class="dove-map reveal">
+      <iframe
+        title="Mappa: Gelateria Dolcemania, Via Don Giovanni Verità 1, Milano"
+        data-i18n-title="dove.maptitle"
+        src="https://www.google.com/maps?q=Gelateria+Dolcemania,+Via+Don+Giovanni+Verit%C3%A0+1,+20158+Milano&output=embed"
+        width="600" height="450" style="border:0" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ FAQ ══════════ -->
+<section id="faq">
+  <h2 class="reveal" data-i18n="faq.h">Domande</h2>
+  <div class="faq-list">
+    <details class="reveal"><summary data-i18n="f1.q">Fino a che ora siete aperti?</summary><p data-i18n="f1.a">Fino alle 23:50, tutti i giorni. Apriamo alle 10 del mattino e chiudiamo quasi a mezzanotte, domenica compresa.</p></details>
+    <details class="reveal"><summary data-i18n="f2.q">Fate anche granite e ghiaccioli?</summary><p data-i18n="f2.a">Sì: granite e ghiaccioli artigianali, come c'è scritto sul cartello fuori. D'estate sono il modo più veloce per rinfrescarsi.</p></details>
+    <details class="reveal"><summary data-i18n="f3.q">C'è qualcosa senza latte?</summary><p data-i18n="f3.a">Sì: fra i gusti gira il cioccolato fondente con popcorn senza latte, ed è uno dei più richiesti. I ghiaccioli alla frutta sono un'altra opzione.</p></details>
+    <details class="reveal"><summary data-i18n="f4.q">Fate torte gelato?</summary><p data-i18n="f4.a">Sì, ci sono le torte gelato nella vetrina — pistacchio e non solo — e i pasticcini freddi. Per una torta grande conviene una telefonata.</p></details>
+    <details class="reveal"><summary data-i18n="f5.q">Dove siete esattamente?</summary><p data-i18n="f5.a">All'angolo tra Via Don Giovanni Verità e Via Filippo Baldinucci, in Bovisa, a Milano.</p></details>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <p class="foot-name">Dolcemania</p>
+    <div class="foot-col">
+      <p>Via Don Giovanni Verità 1 — 20158 Milano</p>
+      <p><a href="tel:+393899678686">389 967 8686</a></p>
+    </div>
+    <div class="foot-col">
+      <p data-i18n="foot.o1">Tutti i giorni 10–23:50</p>
+      <p data-i18n="foot.o2">Sul posto · asporto · domicilio</p>
+    </div>
+  </div>
+  <p class="foot-credit">
+    <span data-i18n="foot.demo">Sito dimostrativo realizzato da</span>
+    <a href="https://bespokestud.io" target="_blank" rel="noopener">Bespoke Studio</a>
+  </p>
+</footer>
+
+<div id="actionBar">
+  <a href="tel:+393899678686" class="ab-call" data-i18n="ab.call">Chiama</a>
+  <a href="#dove" class="ab-map" data-i18n="ab.map">Dove siamo</a>
+</div>
+
+<div id="lightbox" hidden>
+  <button id="lightboxClose" aria-label="Chiudi" data-i18n-aria="lb.close">✕</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+</body>
+</html>
